@@ -1,0 +1,381 @@
+/*****************************************************************
+                        CSS main code start
+*****************************************************************/
+*{
+    padding: 0px;
+    margin: 0px;
+ }
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: serif;
+}
+
+a,a:hover {
+    text-decoration: none;
+}
+
+/*********************************
+        header section start
+*********************************/
+
+.header-section {
+    width: 100%;
+    background: #f6f9f9;
+   
+}
+
+.header-section .logo {
+    width: 100%;
+    padding: 15px 0px;
+    margin-left: 40px;
+}
+/**********************************
+        header section end
+**********************************/
+
+/**********************************
+        banner section start
+**********************************/
+.banner-section {
+    width: 100%;
+    height: auto;
+    background: url(../Images/banner.png) center top no-repeat;
+    background-size: cover;
+}
+
+.banner-inner {
+    width: 100%;
+    text-align: center;
+    padding: 80px 0px;   
+}
+
+.banner-inner h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    margin: 60px 0px 20px;
+}
+
+.divider {
+    width: 60%;
+    background-color: #15a4fa;
+    text-align: center;
+    margin: 0px auto 40px;
+    height: 2px;   
+}
+
+.banner-inner p {
+        font-size: 20px;
+        font-family: "Lato", sans-serif;
+        color: #ffffff;   
+        margin-bottom: 70px;   
+}
+
+.banner-inner .btn-info {
+    padding: 10px 30px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #15a4fa;
+    border-radius: 4px;
+    border-width: 3px;
+    margin: 40px 0px;
+}
+
+.banner-inner .btn-info:hover {
+    color: #ffffff;
+    background: #15a4fa;
+}
+  
+.banner-inner .arrow {
+    width: 100%;
+    margin: 60px auto;
+}
+  
+.banner-inner .arrow .arrow-icon {
+    margin: 80px 0px 0px;
+}
+/**********************************
+        banner section end
+**********************************/
+
+/**********************************
+        sp section start
+**********************************/
+.sp {
+    width: 100%;
+    background: #f6f9f9;  
+    height: 350px; 
+}
+
+.sp-inner {
+    width: 100%;
+    text-align: center;
+}
+
+.sp-inner h2 {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    margin: 60px auto 20px;
+}
+
+.sp-inner p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #999999;
+    line-height: 1.6;
+    margin-bottom: 30px;
+
+}
+/**********************************
+        sp section end
+**********************************/
+
+/**********************************
+        Feature section start
+**********************************/
+.Feature {
+    width: 100%;
+    background: #ffffff;  
+    padding:0px 60px;
+    margin: 50px auto;
+}
+
+.Feature-inner {
+    width: 100%;
+    text-align: center;
+}
+
+
+.Feature-inner img {
+    margin: 30px 0px 20px;
+}
+
+.Feature-inner h4 {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #2d3950;
+    line-height: 1.2;  
+    margin-bottom: 20px; 
+     
+}
+
+.Feature-inner p {
+    font-family: 'Lato', sans-serif;
+    color: #cdcdcd;
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+
+}
+/**********************************
+        Feature section end
+**********************************/
+
+/**********************************
+        portfolio section start
+**********************************/
+
+.portfolio {
+    width: 100%;
+    padding: 70px 100px;
+    background: #f6f9f9;   
+    text-align: center;
+}
+
+.port-temp {
+    width: 100%;
+}
+
+.portfolio h1 {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+
+}
+
+.portfolio h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #999999;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+
+.card-deck .card {
+    margin-bottom: 25px;
+    border-radius: 0px;
+}
+
+.port-hover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    left:0%;
+    background: #15a4fa;
+    opacity: .6;
+    display: none;
+}
+
+.icons {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.card:hover .port-hover {
+    display: block;
+}
+/**********************************
+        portfolio section end
+**********************************/
+
+/**********************************
+        form section start
+**********************************/
+.form-section {
+    width: 100%;
+    background: url("../Images/contact.png") center top no-repeat; 
+    background-size: cover; 
+    text-align: center;   
+}
+
+.form-temp {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-section h1 {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 60px auto 10px;
+}
+
+.form-section h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #939495;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+.Contact-form {
+    width: 100%;
+    padding: 0px 50px;
+    margin-bottom: 100px;
+}
+.Contact-form .contact {
+    width: 100%;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+
+.Contact-form .contact .form-control {
+    width: 100%;
+    padding: 15px;
+    display: block;
+    background: transparent;
+    border: 1px solid #999999;
+}
+textarea {
+    width: 100%;
+    height: 180px;
+    padding: 15px;
+    display: block;
+    background: transparent;
+    border: 1px solid #999999;
+}
+
+.Contact-form .contact .form-control:hover {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+textarea:hover {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+span {
+    color: #ffffff;
+}
+
+.btn-info {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #15a4fa;
+    border-radius: 4px;
+    border-width: 3px;
+}
+
+.Contact-form .contact .btn-info:hover {
+    color: #ffffff;
+    background: #15a4fa;
+}
+/**********************************
+        form section end
+**********************************/
+
+/**********************************
+        footer section start
+**********************************/
+.footer-section {
+    width: 100%;
+    background: #f6f9f9;
+}
+
+.container .social-media {
+    width: 100%;
+    text-align: right;
+}    
+
+.container .social-media .social-icon {
+    width: 100%;
+    list-style: none;
+}
+
+.container .social-media .social-icon li {
+    display: inline-block;  
+}
+
+.container .social-media .social-icon li a {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 15px;
+    padding: 15px;
+    background: #15a4fa;
+    color: #ffffff;
+}
+
+.container .social-media .social-icon li a:hover {
+    background: green;
+}
+.col-md-6 h6 {
+    color: #999999;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+/**********************************
+        footer section end
+**********************************/
+
+

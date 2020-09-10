@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.red {
+    background: red;
+    height: 400px;;
+}
+
+.green {
+    background: green;
+    height: 400px;;
+}
+
+.blue {
+    background: blue;
+    height: 400px;;
+}
+
+.yellow {
+    background: yellow;
+    height: 400px;;
+}
